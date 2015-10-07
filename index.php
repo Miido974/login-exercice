@@ -18,33 +18,33 @@
 
     <div class="site-wrapper">
 
-      <div class="site-wrapper-inner">
+      <div class="site-wrapper-inner"> 
 
         <div class="cover-container">
 
           <div class="inner cover">
-           <form class="form-horizontal"name="login" method="post" action="login.php">
+           <form class="form-horizontal" name="connexion" method="post" enctype="application/x-www-form-urlencoded" action="connexion.php">
             <div class="col-md-8">
               <div class="form-group">
                   <label for="inputText" class="col-sm-2 control-label">Pseudo</label>
                   <div class="col-sm-10">
-                    <input type="text" class="form-control" id="inputText" placeholder="Pseudo">
+                    <input type="text" class="form-control" id="inputText" name="pseudo" placeholder="Pseudo">
                   </div>
               </div>
 
               <div class="form-group">
                 <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
                 <div class="col-sm-10">
-                  <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                  <input type="password" class="form-control" id="inputPassword3" name="password" placeholder="Password">
                 </div>
               </div>
               </div>
               <div class="col-md-4">  
               <div class="form-group">
                 <div class="col-sm-offset-2 col-sm-10">
-                  <button type="submit" class="btn btn-success" id="btn-login">Login</button>
-              </div>
+                  <input type="submit" class="btn btn-success" id="btn-login" value="login">            
                 </div>
+              </div>
               </div>
 
            </form>
